@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIKE JOHN OIL & TEXTILES - Premium Fabrics & Creative Excellence in Aba</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Fountain Foods Specialty Co - Elevating Food Safety Standards Through Innovation</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@300;400;600&display=swap">
     <style>
         :root {
-            --color-primary: #19241b;
-            --color-accent: #217345;
-            --color-bg: #F8FAF8;
-            --color-text: #141A14;
-            --color-surface: #272727;
-            --color-secondary-accent: #a08f7d;
-            --font-display: 'Raleway', sans-serif;
-            --font-body: 'Nunito Sans', sans-serif;
-            --border-radius: 10px;
+            --primary-color: #1c2a14;
+            --accent-color: #75a528;
+            --bg-color: #F0F8EA;
+            --text-color: #202E14;
+            --surface-color: #30441e;
+            --secondary-accent: #d06f38;
+            --font-display: 'Fraunces', serif;
+            --font-body: 'Source Sans 3', sans-serif;
+            --border-radius: 12px;
         }
 
         * {
@@ -32,14 +30,15 @@
 
         body {
             font-family: var(--font-body);
-            color: var(--color-text);
-            background-color: var(--color-bg);
-            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.7;
+            overflow-x: hidden;
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-display);
-            font-weight: 600;
+            font-weight: 700;
             line-height: 1.2;
         }
 
@@ -58,16 +57,17 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(248, 250, 248, 0.95);
+            background: rgba(240, 248, 234, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
 
         .nav-container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            padding: 1.2rem 2rem;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -75,9 +75,9 @@
 
         .logo {
             font-family: var(--font-display);
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--color-primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
             text-decoration: none;
         }
 
@@ -89,16 +89,16 @@
 
         .nav-links a {
             text-decoration: none;
-            color: var(--color-text);
-            font-weight: 500;
+            color: var(--text-color);
+            font-weight: 600;
             transition: color 0.3s ease;
+            font-size: 1rem;
         }
 
         .nav-links a:hover {
-            color: var(--color-accent);
+            color: var(--accent-color);
         }
 
-        /* Mobile Menu Button */
         .mobile-menu-btn {
             display: none;
             flex-direction: column;
@@ -109,7 +109,7 @@
         .mobile-menu-btn span {
             width: 25px;
             height: 3px;
-            background: var(--color-text);
+            background: var(--text-color);
             transition: all 0.3s ease;
             transform-origin: center;
         }
@@ -126,15 +126,14 @@
             transform: rotate(-45deg) translate(6px, -6px);
         }
 
-        /* Mobile Menu */
         .mobile-menu {
             position: fixed;
             top: 70px;
             right: -100%;
             width: 300px;
             height: calc(100vh - 70px);
-            background: var(--color-bg);
-            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+            background: var(--bg-color);
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
             padding: 2rem;
@@ -154,7 +153,7 @@
 
         .mobile-menu ul a {
             text-decoration: none;
-            color: var(--color-text);
+            color: var(--text-color);
             font-size: 1.1rem;
             font-weight: 500;
             transition: color 0.3s ease;
@@ -163,13 +162,13 @@
         }
 
         .mobile-menu ul a:hover {
-            color: var(--color-accent);
+            color: var(--accent-color);
         }
 
         /* Hero Section */
         #hero {
             position: relative;
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -186,7 +185,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            z-index: -2;
+            z-index: 1;
         }
 
         .hero-overlay {
@@ -196,23 +195,31 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: -1;
+            z-index: 2;
         }
 
         .hero-content {
+            position: relative;
+            z-index: 3;
             max-width: 900px;
-            padding: 2rem;
-            z-index: 1;
+            padding: 0 2rem;
         }
 
         .hero-content h1 {
             font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            font-weight: 600;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero-content .tagline {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
         .hero-content p {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             margin-bottom: 2rem;
             line-height: 1.8;
         }
@@ -220,60 +227,50 @@
         .cta-button {
             display: inline-block;
             padding: 1rem 2.5rem;
-            background-color: var(--color-accent);
+            background: var(--accent-color);
             color: white;
             text-decoration: none;
             border-radius: var(--border-radius);
             font-weight: 600;
             font-size: 1.1rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(117, 165, 40, 0.3);
         }
 
         .cta-button:hover {
+            background: var(--secondary-accent);
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(33, 115, 69, 0.3);
+            box-shadow: 0 6px 20px rgba(208, 111, 56, 0.4);
         }
 
-        /* Sections */
+        /* Section Styles */
         section {
             padding: 80px 2rem;
             animation: fadeUp 0.6s ease forwards;
         }
 
-        section:nth-child(2) {
-            animation-delay: 0.1s;
-        }
-
-        section:nth-child(3) {
-            animation-delay: 0.2s;
-        }
-
-        section:nth-child(4) {
-            animation-delay: 0.3s;
-        }
+        section:nth-child(2) { animation-delay: 0.1s; }
+        section:nth-child(3) { animation-delay: 0.2s; }
+        section:nth-child(4) { animation-delay: 0.3s; }
+        section:nth-child(5) { animation-delay: 0.4s; }
+        section:nth-child(6) { animation-delay: 0.5s; }
+        section:nth-child(7) { animation-delay: 0.6s; }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
         .section-title {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: var(--color-primary);
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
             text-align: center;
-        }
-
-        .section-subtitle {
-            font-size: 1.2rem;
-            color: var(--color-secondary-accent);
-            text-align: center;
-            margin-bottom: 3rem;
         }
 
         /* About Section */
         #about {
-            background-color: white;
+            background: white;
         }
 
         .about-content {
@@ -288,23 +285,17 @@
             height: 500px;
             object-fit: cover;
             border-radius: var(--border-radius);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
-        .about-text h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--color-primary);
-        }
-
-        .about-text p {
-            margin-bottom: 1.2rem;
+        .about-text {
+            font-size: 1.1rem;
             line-height: 1.8;
-            color: var(--color-text);
         }
 
         /* Services Section */
         #services {
-            background-color: var(--color-bg);
+            background: var(--bg-color);
         }
 
         .services-grid {
@@ -318,145 +309,196 @@
             background: white;
             padding: 2rem;
             border-radius: var(--border-radius);
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .service-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
         }
 
         .service-card h3 {
-            font-size: 1.5rem;
+            color: var(--primary-color);
             margin-bottom: 1rem;
-            color: var(--color-accent);
+            font-size: 1.4rem;
         }
 
         .service-card p {
-            line-height: 1.8;
-            color: var(--color-text);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        /* Why Choose Section */
+        #why-choose {
+            background: white;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .why-card {
+            background: var(--bg-color);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .why-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        /* Process Section */
+        #process {
+            background: var(--surface-color);
+            color: white;
+        }
+
+        .process-title {
+            color: white;
+        }
+
+        .process-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .process-step {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .process-step h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+
+        /* Industries Section */
+        #industries {
+            background: var(--bg-color);
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .industry-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .industry-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
         }
 
         /* Contact Section */
         #contact {
-            background-color: white;
+            background: white;
+            text-align: center;
         }
 
         .contact-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: start;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
-        .contact-info h2 {
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-            color: var(--color-primary);
+        .contact-details {
+            margin-top: 3rem;
+            text-align: left;
+            background: var(--bg-color);
+            padding: 2rem;
+            border-radius: var(--border-radius);
         }
 
-        .contact-item {
-            margin-bottom: 2rem;
-        }
-
-        .contact-item h3 {
-            font-size: 1.3rem;
+        .contact-details h3 {
+            color: var(--primary-color);
             margin-bottom: 0.5rem;
-            color: var(--color-accent);
+            font-size: 1.3rem;
         }
 
-        .contact-item p {
-            line-height: 1.8;
-            color: var(--color-text);
+        .contact-details p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
         }
 
-        .contact-item a {
-            color: var(--color-accent);
+        .contact-details a {
+            color: var(--accent-color);
             text-decoration: none;
             font-weight: 600;
         }
 
-        .contact-item a:hover {
-            text-decoration: underline;
+        .contact-details a:hover {
+            color: var(--secondary-accent);
         }
 
-        .contact-image {
-            width: 100%;
-            height: 600px;
-            object-fit: cover;
-            border-radius: var(--border-radius);
-        }
-
-        .whatsapp-button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background-color: #25D366;
-            color: white;
-            text-decoration: none;
-            border-radius: var(--border-radius);
-            font-weight: 600;
-            margin-top: 1rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .whatsapp-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
-        }
-
-        /* Floating WhatsApp Button */
+        /* WhatsApp Floating Button */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
+            background: #25D366;
+            color: white;
             width: 60px;
             height: 60px;
-            background-color: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 2rem;
             box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-            z-index: 1000;
-            transition: transform 0.3s ease;
+            z-index: 999;
             text-decoration: none;
+            transition: transform 0.3s ease;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
         }
 
-        .whatsapp-float::before {
-            content: "📱";
-            font-size: 2rem;
-        }
-
         /* Footer */
         footer {
-            background-color: var(--color-surface);
+            background: var(--primary-color);
             color: white;
             text-align: center;
             padding: 2rem;
-        }
-
-        footer p {
-            font-size: 0.95rem;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.7s;
         }
 
         /* Responsive */
         @media (max-width: 1024px) {
             section {
-                padding: 64px 1.5rem;
+                padding: 60px 1.5rem;
             }
 
             .hero-content h1 {
-                font-size: 2.8rem;
+                font-size: 2.5rem;
             }
 
-            .about-content,
-            .contact-content {
-                gap: 3rem;
+            .hero-content .tagline {
+                font-size: 1.4rem;
+            }
+
+            .section-title {
+                font-size: 2.2rem;
             }
         }
 
@@ -464,7 +506,7 @@
             .nav-links {
                 display: none;
             }
-
+            
             .mobile-menu-btn {
                 display: flex;
             }
@@ -474,41 +516,42 @@
             }
 
             .hero-content h1 {
-                font-size: 2.2rem;
-            }
-
-            .hero-content p {
-                font-size: 1.1rem;
-            }
-
-            .section-title {
                 font-size: 2rem;
             }
 
-            .about-content,
-            .contact-content {
+            .hero-content .tagline {
+                font-size: 1.2rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .about-content {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .about-image,
-            .contact-image {
-                height: 350px;
+            .about-image {
+                height: 300px;
             }
 
-            .services-grid {
+            .services-grid,
+            .why-grid,
+            .industries-grid {
                 grid-template-columns: 1fr;
             }
 
             .whatsapp-float {
-                bottom: 20px;
-                right: 20px;
                 width: 50px;
                 height: 50px;
-            }
-
-            .whatsapp-float::before {
                 font-size: 1.5rem;
+                bottom: 20px;
+                right: 20px;
             }
         }
     </style>
@@ -516,11 +559,14 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="#" class="logo">DIKE JOHN OIL & TEXTILES</a>
+            <a href="#hero" class="logo">Fountain Foods</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#industries">Industries</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -533,32 +579,33 @@
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#industries">Industries</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <section id="hero">
-        <img src="https://images.pexels.com/photos/36782889/pexels-photo-36782889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Vibrant Nigerian textile shop" class="hero-image">
+        <img src="https://images.pexels.com/photos/32578355/pexels-photo-32578355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Modern food processing facility" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>DIKE JOHN OIL & TEXTILES</h1>
-            <p>Your Trusted Partner for Premium Fabrics and Creative Design Solutions</p>
-            <p>Located in the heart of Aba, we supply quality textiles and oils to fashion designers, tailors, and creative entrepreneurs across Nigeria. Experience excellence in every yard.</p>
-            <a href="#contact" class="cta-button">Visit Us Today</a>
+            <h1>Fountain Foods Specialty Co</h1>
+            <p class="tagline">Elevating Food Safety Standards Through Innovation</p>
+            <p>Welcome to Fountain Foods Specialty Co - Where Technology Meets Food Safety Excellence. As Nigeria's premier food safety technology consultancy, we empower food businesses across Aba and beyond to achieve world-class safety standards. From farm to fork, we ensure your products meet both local and international compliance requirements.</p>
+            <a href="#contact" class="cta-button">Get Started Today</a>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
+            <h2 class="section-title">About Us</h2>
             <div class="about-content">
-                <img src="https://images.pexels.com/photos/8484204/pexels-photo-8484204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="DIKE JOHN OIL & TEXTILES shop" class="about-image">
+                <img src="https://images.pexels.com/photos/31126181/pexels-photo-31126181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Food safety consultant" class="about-image">
                 <div class="about-text">
-                    <h2>Welcome to DIKE JOHN OIL & TEXTILES</h2>
-                    <p>Situated at 2/4 Onyenso Street Off 45 Omenazu by Faulks Road, Aba North, we are your one-stop destination for premium textiles and quality oils for fashion and creative design.</p>
-                    <p>With years of experience serving Aba's vibrant fashion community, we understand the needs of designers, tailors, and creative professionals. Our extensive collection includes the finest ankara, lace, george wrapper, senator materials, and specialized oils for fabric treatment and finishing.</p>
-                    <p>We pride ourselves on competitive pricing, authentic materials, and personalized service that keeps our customers coming back. Whether you're a fashion designer working on a bridal collection or a tailor serving everyday clients, we have exactly what you need to bring your creative vision to life.</p>
+                    <p>Fountain Foods Specialty Co (also known as Fountain Foods Gourmet Tech Limited) is a leading FoodTech consultancy based in Aba North, Nigeria. Founded and led by experienced Food Safety Tech Consultants, we bridge the gap between traditional food production and modern safety standards. Our mission is to transform Nigeria's food industry by implementing cutting-edge safety protocols, quality assurance systems, and regulatory compliance frameworks. We work with restaurants, food manufacturers, processors, and distributors to build consumer trust through verified safety practices. With deep roots in Aba's vibrant commercial ecosystem, we understand the unique challenges facing Nigerian food businesses and provide practical, cost-effective solutions that drive both safety and profitability.</p>
                 </div>
             </div>
         </div>
@@ -566,28 +613,139 @@
 
     <section id="services">
         <div class="container">
-            <h2 class="section-title">Our Products & Services</h2>
-            <p class="section-subtitle">Quality Materials for Every Creative Project</p>
+            <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Premium Textiles</h3>
-                    <p>We stock an extensive range of high-quality fabrics including ankara, lace, george wrapper, senator materials, silk, cotton, and brocade. All materials are carefully sourced to ensure authenticity and durability.</p>
+                    <h3>Food Safety Audits & Certification</h3>
+                    <p>Comprehensive assessment of your operations against NAFDAC, SON, and international standards. We identify gaps and provide actionable roadmaps to achieve full compliance.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Fashion Oils & Treatments</h3>
-                    <p>Specialized oils for fabric treatment, finishing, and enhancement. Perfect for achieving that premium look and feel your clients demand.</p>
+                    <h3>HACCP Implementation</h3>
+                    <p>Design and deployment of Hazard Analysis Critical Control Point systems tailored to your specific production processes, ensuring systematic food safety management.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Bulk Supply</h3>
-                    <p>Competitive wholesale pricing for fashion houses, tailoring shops, and bulk buyers. We support businesses with reliable supply and flexible payment options.</p>
+                    <h3>Quality Management Systems</h3>
+                    <p>Development of ISO 22000 compliant quality frameworks that streamline operations while maintaining the highest safety standards.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Expert Consultation</h3>
-                    <p>Not sure which material suits your design? Our experienced team provides free consultation to help you select the perfect fabrics for any project.</p>
+                    <h3>Staff Training & Capacity Building</h3>
+                    <p>Hands-on workshops and certification programs that equip your team with essential food safety knowledge and best practices.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Custom Orders</h3>
-                    <p>Need something specific? We can source special materials and colors to match your exact requirements.</p>
+                    <h3>Technology Integration</h3>
+                    <p>Implementation of digital traceability systems, temperature monitoring solutions, and food safety management software that modernize your operations.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Regulatory Compliance Support</h3>
+                    <p>Expert guidance through NAFDAC registration, SON certification, and other regulatory requirements for Nigerian food businesses.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Product Development Consulting</h3>
+                    <p>Technical support for new product launches, ensuring safety standards are built into your formulations from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Fountain Foods</h2>
+            <div class="why-grid">
+                <div class="why-card">
+                    <h3>Local Expertise, Global Standards</h3>
+                    <p>We understand Aba's business environment while delivering international-level food safety solutions.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Proven Track Record</h3>
+                    <p>Our clients have successfully achieved NAFDAC approvals, export certifications, and enhanced market reputation.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Technology-Driven Approach</h3>
+                    <p>We leverage the latest FoodTech innovations to make compliance easier, faster, and more cost-effective.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Practical Solutions</h3>
+                    <p>No cookie-cutter approaches. Every solution is customized to your specific business model, scale, and budget.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Ongoing Support</h3>
+                    <p>We don't just audit and leave. We partner with you for continuous improvement and sustained compliance.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Transparent Pricing</h3>
+                    <p>Clear, upfront costs with no hidden fees. Investment packages designed for businesses of all sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <h2 class="section-title process-title">Our Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <h3>1. Initial Consultation</h3>
+                    <p>We begin with a detailed discussion of your business, current practices, and safety goals. This no-obligation consultation helps us understand your unique needs.</p>
+                </div>
+                <div class="process-step">
+                    <h3>2. Comprehensive Assessment</h3>
+                    <p>Our team conducts a thorough on-site evaluation of your facilities, processes, documentation, and staff practices against relevant standards.</p>
+                </div>
+                <div class="process-step">
+                    <h3>3. Custom Action Plan</h3>
+                    <p>You receive a detailed report with specific, prioritized recommendations and a realistic timeline for implementation.</p>
+                </div>
+                <div class="process-step">
+                    <h3>4. Implementation Support</h3>
+                    <p>We work alongside your team to execute improvements, from documentation systems to physical infrastructure upgrades.</p>
+                </div>
+                <div class="process-step">
+                    <h3>5. Training & Certification</h3>
+                    <p>Your staff receives hands-on training in new procedures, ensuring everyone understands their role in maintaining safety standards.</p>
+                </div>
+                <div class="process-step">
+                    <h3>6. Verification & Certification</h3>
+                    <p>We conduct final verification audits and assist with obtaining necessary certifications from regulatory bodies.</p>
+                </div>
+                <div class="process-step">
+                    <h3>7. Continuous Improvement</h3>
+                    <p>Ongoing monitoring, periodic audits, and refresher training keep your systems current and effective.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <h3>Food Manufacturing</h3>
+                    <p>Producers of packaged foods, beverages, snacks, and condiments requiring NAFDAC certification and quality systems.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Restaurants & Catering</h3>
+                    <p>Establishments seeking to elevate hygiene standards and build customer confidence through verified safety practices.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Food Processing & Packaging</h3>
+                    <p>Companies handling raw materials transformation, preservation, and packaging operations.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Agricultural Exporters</h3>
+                    <p>Farmers and cooperatives preparing products for international markets with strict safety requirements.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Hotels & Hospitality</h3>
+                    <p>Accommodation providers managing food service operations across multiple outlets.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Supermarkets & Retail</h3>
+                    <p>Retailers establishing proper handling, storage, and display protocols for fresh and packaged foods.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Distribution & Logistics</h3>
+                    <p>Cold chain operators and food transporters ensuring safety throughout the supply chain.</p>
                 </div>
             </div>
         </div>
@@ -595,59 +753,29 @@
 
     <section id="contact">
         <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <div class="contact-info">
-                    <h2>Visit Us Today</h2>
-                    <div class="contact-item">
-                        <h3>Location</h3>
-                        <p>2/4 Onyenso Street<br>
-                        Off 45 Omenazu by Faulks Road<br>
-                        Aba North, Abia State, Nigeria</p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Phone</h3>
-                        <p><a href="tel:+2348162461507">0816 246 1507</a></p>
-                    </div>
-                    <div class="contact-item">
-                        <h3>Business Hours</h3>
-                        <p>Monday - Saturday: 8:00 AM - 6:00 PM<br>
-                        Sunday: Closed</p>
-                    </div>
-                    <p>Visit our shop to see our full collection, feel the quality of our materials, and get expert advice for your next fashion project. We're conveniently located in Aba North, easily accessible from all parts of Aba.</p>
-                    <p>For bulk orders or inquiries, contact us via phone or WhatsApp. We look forward to serving you!</p>
-                    <a href="https://wa.me/2348162461507" class="whatsapp-button" target="_blank">WhatsApp Us</a>
+                <p>Ready to elevate your food safety standards? Contact Fountain Foods Specialty Co today for a consultation. Whether you're starting a new food business, seeking certification, or upgrading existing operations, our team is here to guide you every step of the way.</p>
+                
+                <div class="contact-details">
+                    <h3>Visit Our Office:</h3>
+                    <p>2/4 Onyenso Street, Off 45 Omenazu by Faulks Road, Aba North, Abia State, Nigeria</p>
+                    
+                    <h3>Call or WhatsApp:</h3>
+                    <p><a href="tel:+2348162461507">+234 816 246 1507</a></p>
+                    
+                    <h3>Email:</h3>
+                    <p><a href="mailto:info@fountainfoods.org">info@fountainfoods.org</a></p>
+                    
+                    <h3>Business Hours:</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
+                    
+                    <p style="margin-top: 2rem;">We serve clients across Aba, Abia State, and throughout Nigeria. Remote consultations available for businesses outside our immediate area.</p>
                 </div>
-                <img src="https://images.pexels.com/photos/18813744/pexels-photo-18813744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Our location in Aba" class="contact-image">
             </div>
         </div>
     </section>
 
-    <a href="https://wa.me/2348162461507" class="whatsapp-float" target="_blank"></a>
-
-    <footer>
-        <p>&copy; 2025 DIKE JOHN OIL & TEXTILES. All rights reserved.</p>
-    </footer>
-
-    <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-        const mobileMenu = document.querySelector('.mobile-menu');
-
-        if (mobileMenuBtn && mobileMenu) {
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenuBtn.classList.toggle('active');
-                mobileMenu.classList.toggle('active');
-            });
-
-            // Close mobile menu when clicking a link
-            const mobileLinks = mobileMenu.querySelectorAll('a');
-            mobileLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    mobileMenuBtn.classList.remove('active');
-                    mobileMenu.classList.remove('active');
-                });
-            });
-        }
-    </script>
-</body>
-</html>
+    <a href="https://wa.me/2348162461507" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157
