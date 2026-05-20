@@ -1,42 +1,63 @@
 {
-  "businessName": "DIKE JOHN OIL & TEXTILES",
-  "industry": "Fashion and Creative Design",
-  "tone": "warm and professional",
-  "tagline": "Premium Fabrics & Creative Excellence in Aba",
+  "businessName": "Fountain Foods Specialty Co",
+  "industry": "FoodTech",
+  "tone": "professional yet approachable",
+  "tagline": "Elevating Food Safety Standards Through Innovation",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "DIKE JOHN OIL & TEXTILES\n\nYour Trusted Partner for Premium Fabrics and Creative Design Solutions\n\nLocated in the heart of Aba, we supply quality textiles and oils to fashion designers, tailors, and creative entrepreneurs across Nigeria. Experience excellence in every yard.",
-      "imagePrompt": "Vibrant Nigerian textile shop interior in Aba showing colorful ankara fabrics, lace materials, and premium textiles neatly arranged on shelves, warm natural lighting streaming through windows, professional retail atmosphere with rich African patterns and textures, photorealistic, high-end commercial photography",
+      "copy": "Welcome to Fountain Foods Specialty Co - Where Technology Meets Food Safety Excellence. As Nigeria's premier food safety technology consultancy, we empower food businesses across Aba and beyond to achieve world-class safety standards. From farm to fork, we ensure your products meet both local and international compliance requirements.",
+      "imagePrompt": "Modern Nigerian food processing facility with advanced quality control equipment, bright sterile environment, food safety professionals in white coats examining fresh produce, high-tech monitoring screens displaying quality metrics, clean contemporary aesthetic with green and blue accent lighting, professional commercial photography style",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Welcome to DIKE JOHN OIL & TEXTILES\n\nSituated at 2/4 Onyenso Street Off 45 Omenazu by Faulks Road, Aba North, we are your one-stop destination for premium textiles and quality oils for fashion and creative design.\n\nWith years of experience serving Aba's vibrant fashion community, we understand the needs of designers, tailors, and creative professionals. Our extensive collection includes the finest ankara, lace, george wrapper, senator materials, and specialized oils for fabric treatment and finishing.\n\nWe pride ourselves on competitive pricing, authentic materials, and personalized service that keeps our customers coming back. Whether you're a fashion designer working on a bridal collection or a tailor serving everyday clients, we have exactly what you need to bring your creative vision to life.",
-      "imagePrompt": "Welcoming Nigerian textile shop owner standing proudly in their well-stocked fabric store in Aba, rolls of colorful African textiles visible in background, warm smile, professional attire, authentic African business atmosphere, natural lighting, photorealistic portrait style",
+      "copy": "Fountain Foods Specialty Co (also known as Fountain Foods Gourmet Tech Limited) is a leading FoodTech consultancy based in Aba North, Nigeria. Founded and led by experienced Food Safety Tech Consultants, we bridge the gap between traditional food production and modern safety standards. Our mission is to transform Nigeria's food industry by implementing cutting-edge safety protocols, quality assurance systems, and regulatory compliance frameworks. We work with restaurants, food manufacturers, processors, and distributors to build consumer trust through verified safety practices. With deep roots in Aba's vibrant commercial ecosystem, we understand the unique challenges facing Nigerian food businesses and provide practical, cost-effective solutions that drive both safety and profitability.",
+      "imagePrompt": "Professional Nigerian food safety consultant in modern office setting in Aba, examining food samples with laboratory equipment, certificates and regulatory documents on walls, laptop displaying food safety software, warm natural lighting, contemporary African office interior, photorealistic business photography",
       "layout": "split"
     },
     {
       "id": "services",
-      "name": "Our Products & Services",
-      "copy": "Quality Materials for Every Creative Project\n\nPremium Textiles\nWe stock an extensive range of high-quality fabrics including ankara, lace, george wrapper, senator materials, silk, cotton, and brocade. All materials are carefully sourced to ensure authenticity and durability.\n\nFashion Oils & Treatments\nSpecialized oils for fabric treatment, finishing, and enhancement. Perfect for achieving that premium look and feel your clients demand.\n\nBulk Supply\nCompetitive wholesale pricing for fashion houses, tailoring shops, and bulk buyers. We support businesses with reliable supply and flexible payment options.\n\nExpert Consultation\nNot sure which material suits your design? Our experienced team provides free consultation to help you select the perfect fabrics for any project.\n\nCustom Orders\nNeed something specific? We can source special materials and colors to match your exact requirements.",
-      "imagePrompt": "Organized display of various premium African textiles and fabrics in a modern shop setting, colorful ankara prints, elegant lace materials, george wrappers neatly arranged by category, small bottles of fashion oils on counter, professional retail lighting, Aba market aesthetic, photorealistic commercial photography",
+      "name": "Our Services",
+      "copy": "**Food Safety Audits & Certification** - Comprehensive assessment of your operations against NAFDAC, SON, and international standards. We identify gaps and provide actionable roadmaps to achieve full compliance.\n\n**HACCP Implementation** - Design and deployment of Hazard Analysis Critical Control Point systems tailored to your specific production processes, ensuring systematic food safety management.\n\n**Quality Management Systems** - Development of ISO 22000 compliant quality frameworks that streamline operations while maintaining the highest safety standards.\n\n**Staff Training & Capacity Building** - Hands-on workshops and certification programs that equip your team with essential food safety knowledge and best practices.\n\n**Technology Integration** - Implementation of digital traceability systems, temperature monitoring solutions, and food safety management software that modernize your operations.\n\n**Regulatory Compliance Support** - Expert guidance through NAFDAC registration, SON certification, and other regulatory requirements for Nigerian food businesses.\n\n**Product Development Consulting** - Technical support for new product launches, ensuring safety standards are built into your formulations from day one.",
+      "imagePrompt": "Collage-style composition showing various aspects of food safety technology: hands holding tablet with food tracking software, quality control inspection of packaged foods, training session with Nigerian food handlers, laboratory testing equipment, NAFDAC certification documents, modern food processing machinery, vibrant professional color palette, documentary photography style",
+      "layout": "grid"
+    },
+    {
+      "id": "why-choose",
+      "name": "Why Choose Fountain Foods",
+      "copy": "**Local Expertise, Global Standards** - We understand Aba's business environment while delivering international-level food safety solutions.\n\n**Proven Track Record** - Our clients have successfully achieved NAFDAC approvals, export certifications, and enhanced market reputation.\n\n**Technology-Driven Approach** - We leverage the latest FoodTech innovations to make compliance easier, faster, and more cost-effective.\n\n**Practical Solutions** - No cookie-cutter approaches. Every solution is customized to your specific business model, scale, and budget.\n\n**Ongoing Support** - We don't just audit and leave. We partner with you for continuous improvement and sustained compliance.\n\n**Transparent Pricing** - Clear, upfront costs with no hidden fees. Investment packages designed for businesses of all sizes.",
+      "imagePrompt": "Professional handshake between food business owner and consultant in modern Nigerian office, background showing successful food production facility through window, certificates of achievement displayed, warm confident atmosphere, natural lighting, business partnership photography style",
+      "layout": "cards"
+    },
+    {
+      "id": "process",
+      "name": "Our Process",
+      "copy": "**1. Initial Consultation** - We begin with a detailed discussion of your business, current practices, and safety goals. This no-obligation consultation helps us understand your unique needs.\n\n**2. Comprehensive Assessment** - Our team conducts a thorough on-site evaluation of your facilities, processes, documentation, and staff practices against relevant standards.\n\n**3. Custom Action Plan** - You receive a detailed report with specific, prioritized recommendations and a realistic timeline for implementation.\n\n**4. Implementation Support** - We work alongside your team to execute improvements, from documentation systems to physical infrastructure upgrades.\n\n**5. Training & Certification** - Your staff receives hands-on training in new procedures, ensuring everyone understands their role in maintaining safety standards.\n\n**6. Verification & Certification** - We conduct final verification audits and assist with obtaining necessary certifications from regulatory bodies.\n\n**7. Continuous Improvement** - Ongoing monitoring, periodic audits, and refresher training keep your systems current and effective.",
+      "imagePrompt": "Infographic-style visualization showing 7-step process flow, each step illustrated with icons and photos of Nigerian food businesses at different stages of improvement, progression from left to right, clean modern design with green and blue color scheme, professional diagram photography",
+      "layout": "default"
+    },
+    {
+      "id": "industries",
+      "name": "Industries We Serve",
+      "copy": "**Food Manufacturing** - Producers of packaged foods, beverages, snacks, and condiments requiring NAFDAC certification and quality systems.\n\n**Restaurants & Catering** - Establishments seeking to elevate hygiene standards and build customer confidence through verified safety practices.\n\n**Food Processing & Packaging** - Companies handling raw materials transformation, preservation, and packaging operations.\n\n**Agricultural Exporters** - Farmers and cooperatives preparing products for international markets with strict safety requirements.\n\n**Hotels & Hospitality** - Accommodation providers managing food service operations across multiple outlets.\n\n**Supermarkets & Retail** - Retailers establishing proper handling, storage, and display protocols for fresh and packaged foods.\n\n**Distribution & Logistics** - Cold chain operators and food transporters ensuring safety throughout the supply chain.",
+      "imagePrompt": "Split-screen montage showing diverse Nigerian food businesses: modern restaurant kitchen, food manufacturing plant, agricultural cooperative with fresh produce, hotel buffet setup, supermarket food section, delivery truck with refrigeration, warm diverse lighting, professional commercial photography",
       "layout": "grid"
     },
     {
       "id": "contact",
-      "name": "Visit Us Today",
-      "copy": "DIKE JOHN OIL & TEXTILES\n\nLocation:\n2/4 Onyenso Street\nOff 45 Omenazu by Faulks Road\nAba North, Abia State, Nigeria\n\nPhone: 0816 246 1507\n\nBusiness Hours:\nMonday - Saturday: 8:00 AM - 6:00 PM\nSunday: Closed\n\nWhatsApp Orders Available\n\nVisit our shop to see our full collection, feel the quality of our materials, and get expert advice for your next fashion project. We're conveniently located in Aba North, easily accessible from all parts of Aba.\n\nFor bulk orders or inquiries, contact us via phone or WhatsApp. We look forward to serving you!",
-      "imagePrompt": "Street view of a busy textile shop in Aba, Nigeria, colorful fabrics visible through shop windows, vibrant commercial street atmosphere, customers browsing outside, typical Aba North business district environment, clear signage, photorealistic urban photography, daytime lighting",
-      "layout": "default"
+      "name": "Get In Touch",
+      "copy": "Ready to elevate your food safety standards? Contact Fountain Foods Specialty Co today for a consultation. Whether you're starting a new food business, seeking certification, or upgrading existing operations, our team is here to guide you every step of the way.\n\n**Visit Our Office:**\n2/4 Onyenso Street, Off 45 Omenazu by Faulks Road, Aba North, Abia State, Nigeria\n\n**Call or WhatsApp:**\n+234 816 246 1507\n\n**Business Hours:**\nMonday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM\n\nWe serve clients across Aba, Abia State, and throughout Nigeria. Remote consultations available for businesses outside our immediate area.",
+      "imagePrompt": "Welcoming Nigerian business office reception area in Aba, modern furniture with African textile accents, friendly receptionist, food safety posters and certifications on walls, natural light through windows, professional yet warm atmosphere, architectural interior photography",
+      "layout": "centered"
     }
   ],
   "contact": {
-    "phone": "0816 246 1507",
-    "email": "",
-    "address": "2/4 Onyenso Street Off 45 Omenazu by Faulks Road, Aba North, Abia State, Nigeria",
+    "phone": "+234 816 246 1507",
+    "email": "info@fountainfoods.org",
+    "address": "2/4 Onyenso Street, Off 45 Omenazu by Faulks Road, Aba North, Abia State, Nigeria",
     "whatsapp": "https://wa.me/2348162461507"
   }
 }
